@@ -1,8 +1,7 @@
 "use client";
-import { assets } from "@/Assets/assets";
 import Sidebar from "@/Components/AdminComponents/Sidebar";
 import { useUser } from "@clerk/nextjs";
-import { User } from "@clerk/nextjs/server";
+
 import Image from "next/image";
 import { ToastContainer } from "react-toastify";
 

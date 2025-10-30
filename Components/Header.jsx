@@ -38,7 +38,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <SignedOut>
           <Link href={"/sign-in"} className="flex items-center gap-2 font-medium py-1 px-3 sm:py-3 sm:px-6 border border-solid border-black shadow-[-7px_7px_0px_#000000]">
-            Admin Sign-In <Image src={assets.arrow} alt="arrow" />
+            Get Started <Image src={assets.arrow} alt="arrow" />
           </Link>
           </SignedOut>
           <SignedIn>
