@@ -16,7 +16,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}>
       <ToastContainer theme="dark" />
       <html lang="en">
         <body className={`${outfit.variable} antialiased`}>{children}</body>
